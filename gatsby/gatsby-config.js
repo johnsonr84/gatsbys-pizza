@@ -14,7 +14,7 @@ export default {
       // this is the name of the plugin you are adding
       resolve: 'gatsby-source-sanity',
       options: {
-        projectId: 'YOU-NEED-TO-PUT-YOUR-OWN-PROJECT-ID-HERE',
+        projectId: '4da2ra4f',
         dataset: 'production',
         watchMode: true,
         token: process.env.SANITY_TOKEN,
