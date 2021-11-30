@@ -34,7 +34,7 @@ export default function usePizza({ pizzas, values }) {
     console.log(e);
     setLoading(true);
     setError(null);
-    setMessage('Go eat!');
+    // setMessage('Go eat!');
 
     // gather all the data
     const body = {
@@ -42,6 +42,7 @@ export default function usePizza({ pizzas, values }) {
       total: formatMoney(calculateOrderTotal(order, pizzas)),
       name: values.name,
       email: values.email,
+      mapleSyrup: values.mapleSyrup,
     };
     // 4. Send this data the a serevrless function when they check out
     const res = await fetch(
