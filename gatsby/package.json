@@ -1,7 +1,7 @@
 {
-  "name": "gatsbys-slices-frontend",
+  "name": "gatsbys-pizza-frontend",
   "private": true,
-  "description": "Gatsby's Serves the Greatest Slices",
+  "description": "Gatsby's Serves the Greatest pizza",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

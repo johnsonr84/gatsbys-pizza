@@ -1,8 +1,8 @@
-# gatsbys-slices
+# gatsbys-pizza
 
 [![github-follow](https://img.shields.io/github/followers/johnsonr84.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/johnsonr84)
-[![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/gatsbys-slices?color=orange)](https://github.com/johnsonr84/gatsbys-slices)
-[![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/gatsbys-slices?color=yellow)](https://github.com/johnsonr84/gatsbys-slices)
+[![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/gatsbys-pizza?color=orange)](https://github.com/johnsonr84/gatsbys-pizza)
+[![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/gatsbys-pizza?color=yellow)](https://github.com/johnsonr84/gatsbys-pizza)
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Built With
@@ -33,7 +33,7 @@
 
 ## Description
 
-Gatby's Slices - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) featuring a frontend build with react.js and gatsby and a sanity backend. Deployed to Netlify.
+Gatby's pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) featuring a frontend build with react.js and gatsby and a sanity backend. Deployed to Netlify.
 
 ## Outcome
 
@@ -41,23 +41,23 @@ Gatby's Slices - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) f
 
 ## Project URL
 
-https://github.com/johnsonr84/gatsbys-slices
+https://github.com/johnsonr84/gatsbys-pizza
 
 ## Deployment
 
 Coming soon!
 
-<!-- - [https://johnsonr84.github.io/gatsbys-slices/](https://johnsonr84.github.io/gatsbys-slices/) -->
+<!-- - [https://johnsonr84.github.io/gatsbys-pizza/](https://johnsonr84.github.io/gatsbys-pizza/) -->
 
 ## Demo/Screenshots
 
   <table>
     <tr>
-      <td>Gatsby's Slices Example</td>
+      <td>Gatsby's pizza Example</td>
     </tr>
     <tr>
     <td><video playsinline="" src="https://player.vimeo.com/external/214724905.hd.mp4?s=5cd8253c819177881cc44457e4e6784c626a2599&amp;profile_id=174" muted="" autoplay="" loop="" height=400></video></td>
-      <!-- <td><img src="" height=600 alt="screenshot of gatsbys-slices"></td> -->
+      <!-- <td><img src="" height=600 alt="screenshot of gatsbys-pizza"></td> -->
     </tr>
   </table>
 
@@ -70,7 +70,7 @@ React.js, GraphQL, Gatsby, Node.js, JavaScript, Express.js, MongoDB, REST-API, S
 ## Installation
 
 - Access to GitHub.com and a code editor such as vscode is necessary
-- Go to [https://github.com/johnsonr84/gatsbys-slices](https://github.com/johnsonr84/gatsbys-slices)
+- Go to [https://github.com/johnsonr84/gatsbys-pizza](https://github.com/johnsonr84/gatsbys-pizza)
 - Click on the green button that says Clone or Download
 - Choose how you would like to download: using the SSH/HTTPS keys or download the zip file
 - Using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git repo, cd into the repo and type open. to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.

@@ -36,7 +36,7 @@ const LogoStyles = styled.div`
     transform: translateY(-0.7em);
   }
 
-  .slices {
+  .pizza {
     font-size: 3.2em;
     letter-spacing: 0.2em;
     transform: translateY(-0.15em);
@@ -112,7 +112,7 @@ export default function Logo() {
             <span className="letter apos">'</span>
             <span className="letter s">s</span>
           </span>
-          <span className="slices">slices</span>
+          <span className="pizza">pizza</span>
         </h1>
       </div>
     </LogoStyles>
