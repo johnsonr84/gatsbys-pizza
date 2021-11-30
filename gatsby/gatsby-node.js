@@ -1,48 +1,73 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import styled from 'styled-components';
+import path from 'path';
 
-const PizzaGrid = styled.div`
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-`;
-
-export default function SinglePizzaPage({ data: { pizza } }) {
-  return (
-    <PizzaGrid>
-      <Img fluid={pizza.image.asset.fluid} />
-      <div>
-        <h2 className="mark">{pizza.name}</h2>
-        <ul>
-          {pizza.toppings.map((topping) => (
-            <li key={topping.id}>{topping.name}</li>
-          ))}
-        </ul>
-      </div>
-    </PizzaGrid>
-  );
-}
-
-// This needs to be dynamic based on the slug passed in via context in gatsby-node.js
-export const query = graphql`
-  query ($slug: String!) {
-    pizza: sanityPizza(slug: { current: { eq: $slug } }) {
-      name
-      id
-      image {
-        asset {
-          fluid(maxWidth: 800) {
-            ...GatsbySanityImageFluid
+async function turnPizzasIntoPages({ graphql, actions }) {
+  // 1. Get a template for this page
+  const pizzaTemplate = path.resolve('./src/templates/Pizza.js');
+  // 2. Query all pizzas
+  const { data } = await graphql(`
+    query {
+      pizzas: allSanityPizza {
+        nodes {
+          name
+          slug {
+            current
           }
         }
       }
-      toppings {
-        name
-        id
-        vegetarian
+    }
+  `);
+  // 3. Loop over each pizza and create a page for that pizza
+  data.pizzas.nodes.forEach((pizza) => {
+    actions.createPage({
+      // What is the URL for this new page??
+      path: `pizza/${pizza.slug.current}`,
+      component: pizzaTemplate,
+      context: {
+        slug: pizza.slug.current,
+      },
+    });
+  });
+}
+
+async function turnToppingsIntoPages({ graphql, actions }) {
+  console.log(`Turning the Toppings into Pages!!!`);
+  // 1. Get the template
+  const toppingTemplate = path.resolve('./src/pages/pizzas.js');
+  // 2. query all the toppings
+  const { data } = await graphql(`
+    query {
+      toppings: allSanityTopping {
+        nodes {
+          name
+          id
+        }
       }
     }
-  }
-`;
+  `);
+  // 3. createPage for that topping
+  data.toppings.nodes.forEach((topping) => {
+    console.log(`Creating page for topping`, topping.name);
+    actions.createPage({
+      path: `topping/${topping.name}`,
+      component: toppingTemplate,
+      context: {
+        topping: topping.name,
+        // TODO Regex for Topping
+        toppingRegex: `/${topping.name}/i`,
+      },
+    });
+  });
+  // 4. Pass topping data to pizza.js
+}
+
+export async function createPages(params) {
+  // Create pages dynamically
+  // Wait for all promises to be resolved before finishing this function
+  await Promise.all([
+    turnPizzasIntoPages(params),
+    turnToppingsIntoPages(params),
+  ]);
+  // 1. Pizzas
+  // 2. Toppings
+  // 3. Slicemasters
+}
