@@ -50,7 +50,7 @@ export default function HomePage() {
           style={{
             textDecoration: 'none',
             backgroundColor: 'var(--black)',
-            color: 'white',
+            color: 'var(--gold)',
             padding: '10px',
             fontSize: '1.3em',
           }}
