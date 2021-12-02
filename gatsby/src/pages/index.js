@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import useLatestData from '../utils/useLatestData';
 import { HomePageGrid } from '../styles/Grids';
 import LoadingGrid from '../components/LoadingGrid';
@@ -39,6 +40,9 @@ export default function HomePage() {
   return (
     <div className="center">
       <h1>The Best Pizza Downtown!</h1>
+      <button className="beersPage">
+        <Link to="/beers">See Our Beer Menu</Link>
+      </button>
       <p>Open 11am to 11pm Every Single Day</p>
       <HomePageGrid>
         <CurrentlySlicing slicemasters={slicemasters} />
