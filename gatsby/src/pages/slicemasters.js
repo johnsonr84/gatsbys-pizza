@@ -27,7 +27,7 @@ const SlicemasterStyles = styled.div`
     z-index: 2;
   }
   .description {
-    background: var(--yellow);
+    background: var(--gold);
     padding: 1rem;
     margin: 2rem;
     margin-top: -6rem;
@@ -52,7 +52,7 @@ export default function SlicemastersPage({ data, pageContext }) {
       />
       <SlicemasterGrid>
         {slicemasters.map((person) => (
-          <SlicemasterStyles>
+          <SlicemasterStyles key={person.id}>
             <Link to={`/slicemaster/${person.slug.current}`}>
               <h2>
                 <span className="mark">{person.name}</span>
