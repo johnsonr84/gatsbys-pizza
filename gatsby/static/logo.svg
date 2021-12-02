@@ -145,7 +145,7 @@
           filter="url(#filter-5)"
           transform="translate(0.166867, 6.932493)"
           fill="#FF4949"
-          font-family="FrenchFries-Regular, French Fries"
+          font-family="AtlasRegular, Atlas Regular"
           font-weight="normal"
         >
                     <text
@@ -200,17 +200,17 @@
                 </g>
                 <text
           id="pizza"
-          font-family="FrenchFries-Regular, French Fries"
+          font-family="AtlasRegular, Atlas Regular"
           font-size="55.2999991"
           font-weight="normal"
           letter-spacing="15.8481355"
           fill="#000000"
         >
-                    <tspan x="325.84304" y="275.938363">pizza</tspan>
+                    <tspan x="325.84304" y="275.938363">PIZZA</tspan>
                 </text>
                 <text
           id="EST-1994"
-          font-family="FrenchFries-Regular, French Fries"
+          font-family="AtlasRegular, Atlas Regular"
           font-size="13.2999998"
           font-weight="normal"
           letter-spacing="3.81157716"
