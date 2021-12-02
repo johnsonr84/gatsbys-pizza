@@ -28,8 +28,8 @@ const GlobalStyles = createGlobalStyle`
 
   button {
     background: var(--gold);
-    color: black;
-    border: 0;
+    color: white;
+    border: 1px solid white;
     padding: 0.6rem 1rem;
     border-radius: 2px;
     cursor: pointer;

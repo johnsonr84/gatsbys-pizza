@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { withTheme } from 'styled-components';
 import useLatestData from '../utils/useLatestData';
 import { HomePageGrid } from '../styles/Grids';
 import LoadingGrid from '../components/LoadingGrid';
@@ -49,10 +50,11 @@ export default function HomePage() {
           to="/beers"
           style={{
             textDecoration: 'none',
-            backgroundColor: 'var(--black)',
-            color: 'var(--gold)',
+            backgroundColor: 'var(--gold)',
+            border: '3px solid white',
+            color: 'var(--white)',
             padding: '10px',
-            fontSize: '1.3em',
+            fontSize: '1.4em',
           }}
         >
           Beer Menu

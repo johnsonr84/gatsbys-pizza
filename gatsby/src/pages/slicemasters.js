@@ -28,6 +28,8 @@ const SlicemasterStyles = styled.div`
   }
   .description {
     background: var(--gold);
+    color: white;
+    border: 3px solid white;
     padding: 1rem;
     margin: 2rem;
     margin-top: -6rem;

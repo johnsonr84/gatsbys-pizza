@@ -32,7 +32,9 @@ const Typography = createGlobalStyle`
   }
   mark, .mark {
     background: var(--gold);
-    padding: 0 2px 2px 2px;
+    color: white;
+    border: solid 3px white;
+    padding: 8px;
     margin: 0;
     display: inline;
     line-height: 1;
