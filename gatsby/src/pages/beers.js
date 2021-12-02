@@ -62,10 +62,6 @@ export const query = graphql`
         name
         price
         image
-        rating {
-          average
-          reviews
-        }
       }
     }
   }
