@@ -40,9 +40,24 @@ export default function HomePage() {
   return (
     <div className="center">
       <h1>The Best Pizza Downtown!</h1>
-      <button className="beersPage">
-        <Link to="/beers">See Our Beer Menu</Link>
-      </button>
+      <div
+        style={{
+          marginTop: '20px',
+        }}
+      >
+        <Link
+          to="/beers"
+          style={{
+            textDecoration: 'none',
+            backgroundColor: 'var(--black)',
+            color: 'white',
+            padding: '10px',
+            fontSize: '1.3em',
+          }}
+        >
+          Beer Menu
+        </Link>
+      </div>
       <p>Open 11am to 11pm Every Single Day</p>
       <HomePageGrid>
         <CurrentlySlicing slicemasters={slicemasters} />
