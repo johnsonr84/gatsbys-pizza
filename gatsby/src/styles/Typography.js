@@ -26,13 +26,14 @@ const Typography = createGlobalStyle`
   }
   a {
     color: var(--black);
-    text-decoration-color: var(--black);
+    text-decoration: none;
     /* Chrome renders this weird with this font, so we turn it off */
     text-decoration-skip-ink: none;
   }
   mark, .mark {
     background: var(--gold);
     color: white;
+   
     border: solid 3px white;
     padding: 8px;
     margin: 0;

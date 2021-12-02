@@ -36,6 +36,7 @@ export const ItemStyles = styled.div`
   }
   .mark {
     display: inline;
+    text-decoration: none;
   }
   @keyframes shine {
     from {
