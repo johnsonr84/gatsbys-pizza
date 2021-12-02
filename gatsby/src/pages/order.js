@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import SEO from '../components/SEO';
@@ -40,22 +40,26 @@ export default function OrderPage({ data }) {
       <OrderStyles onSubmit={submitOrder}>
         <fieldset disabled={loading}>
           <legend>Your Info</legend>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            value={values.name}
-            onChange={updateValue}
-          />
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            value={values.email}
-            onChange={updateValue}
-          />
+          <label htmlFor="name">
+            Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value={values.name}
+              onChange={updateValue}
+            />
+          </label>
+          <label htmlFor="email">
+            Email
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value={values.email}
+              onChange={updateValue}
+            />
+          </label>
           <input
             type="mapleSyrup"
             name="mapleSyrup"
@@ -109,9 +113,14 @@ export default function OrderPage({ data }) {
           <h3>
             Your Total is {formatMoney(calculateOrderTotal(order, pizzas))}
           </h3>
-          <div>{error ? <p>Error: {error}</p> : ''}</div>
+          <div aria-live="polite" aria-atomic="true">
+            {error ? <p>Error: {error}</p> : ''}
+          </div>
           <button type="submit" disabled={loading}>
-            {loading ? 'Placing Order...' : 'Order Ahead'}
+            <span aria-live="assertive" aria-atomic="true">
+              {loading ? 'Placing Order...' : ''}
+            </span>
+            {loading ? '' : 'Order Ahead'}
           </button>
         </fieldset>
       </OrderStyles>
