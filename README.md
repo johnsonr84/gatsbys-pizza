@@ -55,25 +55,25 @@ Gatby's pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) fe
       <td>Gatsby's Pizza</td>
     </tr>
     <tr>
-      <td><img src="gatsby/src/assets/images/home-page.png" height=400 alt="screenshot of Gatsby's home page"></td>
+      <td><img src="gatsby/src/assets/images/home-page.png" height=500 alt="screenshot of Gatsby's home page"></td>
     </tr>
      <tr>
       <td>Pizza Menu</td>
     </tr>
     <tr>
-      <td><img src="gatsby/src/assets/images/pizza-menu.png" height=400 alt="screenshot of pizza menu"></td>
+      <td><img src="gatsby/src/assets/images/pizza-menu.png" height=500 alt="screenshot of pizza menu"></td>
     </tr>
      <tr>
       <td>Slice Masters Page</td>
     </tr>
     <tr>
-      <td><img src="gatsby/src/assets/images/slice-masters.png" height=400 alt="screenshot of gatsby employees"></td>
+      <td><img src="gatsby/src/assets/images/slice-masters.png" height=500 alt="screenshot of gatsby employees"></td>
     </tr>
      <tr>
       <td>Order Page</td>
     </tr>
     <tr>
-      <td><img src="gatsby/src/assets/images/order-page.png" height=400 alt="screenshot of order page"></td>
+      <td><img src="gatsby/src/assets/images/order-page.png" height=500 alt="screenshot of order page"></td>
     </tr>
   </table>
 
