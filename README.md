@@ -25,6 +25,7 @@
 - [Demo/Screenshots](#Demo/Screenshots)
 - [Technologies](#Technologies)
 - [Installation](#Installation)
+- [Usage](#Usage)
 - [Credits](#Credits)
 - [License](#License)
 - [Resources](#Resources)
@@ -41,23 +42,38 @@ Gatby's pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) fe
 
 ## Project URL
 
-https://github.com/johnsonr84/gatsbys-pizza
+- https://github.com/johnsonr84/gatsbys-pizza
 
 ## Deployment
 
-Coming soon!
-
-<!-- - [https://johnsonr84.github.io/gatsbys-pizza/](https://johnsonr84.github.io/gatsbys-pizza/) -->
+- [https://gatsbys-pizza.netlify.app/](https://gatsbys-pizza.netlify.app/)
 
 ## Demo/Screenshots
 
   <table>
     <tr>
-      <td>Gatsby's pizza Example</td>
+      <td>Gatsby's Pizza</td>
     </tr>
     <tr>
-    <td><video playsinline="" src="https://player.vimeo.com/external/214724905.hd.mp4?s=5cd8253c819177881cc44457e4e6784c626a2599&amp;profile_id=174" muted="" autoplay="" loop="" height=400></video></td>
-      <!-- <td><img src="" height=600 alt="screenshot of gatsbys-pizza"></td> -->
+      <td><img src="../assets/images/home-page.png" height=400 alt="screenshot of Gatsby's home page"></td>
+    </tr>
+     <tr>
+      <td>Pizza Menu</td>
+    </tr>
+    <tr>
+      <td><img src="../assets/images/pizza-menu.png" height=400 alt="screenshot of pizza menu"></td>
+    </tr>
+     <tr>
+      <td>Slice Masters Page</td>
+    </tr>
+    <tr>
+      <td><img src="../assets/images/slice-masters.png" height=400 alt="screenshot of gatsby employees"></td>
+    </tr>
+     <tr>
+      <td>Order Page</td>
+    </tr>
+    <tr>
+      <td><img src="../assets/images/order-page.png" height=400 alt="screenshot of order page"></td>
     </tr>
   </table>
 
@@ -75,6 +91,10 @@ React.js, GraphQL, Gatsby, Node.js, JavaScript, Express.js, MongoDB, REST-API, S
 - Choose how you would like to download: using the SSH/HTTPS keys or download the zip file
 - Using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git repo, cd into the repo and type open. to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
 - Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it. All the files for the website will be within this folder. Click on index.html to open the website in the browser.
+
+## Usage
+
+- In order to use this APP, you need terminal (mac: pre-installed) or gitbash (pc: must be installed). You also need to download and install node.js and npm or yarn package manager. Open the cloned REPO in your favorite code editor, and then in terminal, enter the command “npm i“ or “yarn add” to install the dependencies in both gatsby and sanity folders. Now you are ready to start using the app by entering “npm start” or "yarn start" on your terminal or gitbash in both gatsby and sanity folder. It's recommended to have two terminal windows going at the same time. One for your server side folder (sanity) and the other for your client facing folder (gatsby). If you just want to try how the app works, you can go to the link [here](https://gatsbys-pizza.netlify.app/)
 
 ## Credits
 
