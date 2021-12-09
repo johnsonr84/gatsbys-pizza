@@ -1,4 +1,8 @@
-# gatsbys-pizza
+<h1 align="center"><a href="https://gatsbys-pizza.netlify.app/">Gatsby's Pizza! 🍕 </a></h1>
+
+## Description
+
+Gatby's Pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) featuring a frontend build with react.js and a sanity backend. The app uses a Gatsby frontend framework, thus I created a UI to be be themed from The Great Gatsby, a 1925 novel by American writer F. Scott Fitzgerald. Deployed to Netlify!
 
 [![github-follow](https://img.shields.io/github/followers/johnsonr84.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/johnsonr84)
 [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/gatsbys-pizza?color=orange)](https://github.com/johnsonr84/gatsbys-pizza)
@@ -30,11 +34,7 @@
 - [License](#License)
 - [Resources](#Resources)
 - [Contact](#Contact)
-- [Designed and Built By](#Designed-and-Built-By)
-
-## Description
-
-Gatby's pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) featuring a frontend build with react.js and gatsby and a sanity backend. Deployed to Netlify.
+- [Author](#Author)
 
 ## Outcome
 
@@ -115,7 +115,7 @@ This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
 
 Email: robertcjohnson1984@gmail.com
 
-## Designed and Built By
+## Author
 
 Author(s): Rob Johnson  
  GitHub: https://github.com/johnsonr84/
