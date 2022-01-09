@@ -1,8 +1,7 @@
 <h1 align="center"><a href="https://gatsbys-pizza.netlify.app/">Gatsby's Pizza! 🍕 </a></h1>
 
 ## Description
-
-Gatby's Pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) featuring a frontend build with react.js and a sanity backend. The app uses a Gatsby frontend framework, thus I created a UI to be be themed from The Great Gatsby, a 1925 novel by American writer F. Scott Fitzgerald. Deployed to Netlify!
+Gatby's Pizza - A Modern Pizza Website (Search, Add to Cart & Checkout) featuring a frontend build with react.js and a sanity backend. The app uses a Gatsby frontend framework, thus I created a UI to be be themed from The Great Gatsby, a 1925 novel by American writer F. Scott Fitzgerald. Deployed to Netlify!
 
 [![github-follow](https://img.shields.io/github/followers/johnsonr84.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/johnsonr84)
 [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/gatsbys-pizza?color=orange)](https://github.com/johnsonr84/gatsbys-pizza)
@@ -10,7 +9,6 @@ Gatby's Pizza - A Modern Pizza Website (Search, Sell, Add to Cart & Checkout) fe
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Built With
-
 [![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Gatsby.js](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)](https://www.gatsbyjs.com/)
 [![GraphQL](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
